@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Prince Kumar Singh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Prince Kumar Singh</h1>
+        <p>Web Developer | Problem Solver | Programmer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="images/psport-image.jpg" alt="My Photo">
+        <p>Hello! I'm Prince Kumar Singh, a passionate web developer with a knack for creating clean, modern, and responsive websites. I enjoy turning ideas into reality and love solving problems through code.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript & React</li>
+            <li>Responsive Web Design</li>
+            <li>Node.js & Express</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my work.</p>
+                <img src="images/portfolio.png" alt="Portfolio Project">
+                <br>
+                <a href="https://github.com/Princekumar-08/portfolio">GitHub Link</a>
+            </li>
+            <li>
+                <h3>Attendance Management System</h3>
+                <p>A simple and effective task management app.</p>
+                <img src="images/project2.jpg" alt="Attendance Management System">
+                <br>
+                <a href="https://github.com/Princekumar-08/attendence-managment-system">GitHub Link</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <p><a href="resume/Maths_Volunteers.pdf" download>Download My Resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Email: princesinghr172@gmail.com</p>
+        <p>Phone: +91 9060284491</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Prince Kumar Singh. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
